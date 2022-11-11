@@ -1,0 +1,400 @@
+// Обнуление
+@import "nullstyle.scss";
+
+//Шрифт 
+@font-face {
+    font-family: 'GilroyBold';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Gilroy Regular';
+    src: url('Gilroy-Regular.eot');
+    src: url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Regular.woff') format('woff'),
+    url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+
+body {
+    font-family: 'Gilroy Regular';
+    margin-top: 33px;
+    position: relative;
+}
+
+.header {
+    background-color: white;
+    
+    max-width: 1445px;
+
+
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 50px;
+    z-index: 99;
+    padding-top: 13px;
+    padding-left: 250px;
+    
+
+    a {
+        font-size: 18px;
+        font-family: 'Gilroy Regular';
+        font-style: normal;
+        color: #828282;
+        display: inline-block;
+        margin-right: 155px;
+        line-height: 22px;
+
+        
+        
+        
+    
+        
+    }
+    
+}
+
+
+a:hover {
+    color: #070707;
+    font-weight: 700;
+    
+    
+}
+
+.line {
+    margin-top: 23px;
+    position: absolute;
+    width: 940.6px;
+    height: 0px;
+    left: 250.69px;
+    top: 40.94px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+    
+}
+.h1 {
+    font-family: 'GilroyBold';
+    font-size: 47px;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 90px;
+    display: inline-block;
+    margin-left: 250px;
+    
+
+}
+.h2 {
+    display: inline-block;
+    margin-left: 297px;
+    font-size: 18px;
+
+}
+.ru_eng {
+    display: inline-block;
+    transform: rotate(-90deg);
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 330px;
+    position: relative;
+    top: -25px;
+        b{
+            font-family: 'GilroyBold';
+        }
+}
+.foto1 {
+    width: 947px;
+    height: 387px;
+    left: 250.69px;
+    top: 270.94px;
+    padding-top: 25px;
+    margin-left: 250px;
+    
+}
+
+.about_me {
+    position: relative;
+    width: 100%;
+    height: 506px;
+    left: 0px;
+    top: 100px;
+    background: #F6F6F6;
+}
+
+h3 {
+    font-family: 'GilroyBold';
+    position: relative;
+    font-size: 34px;
+    top: 90px;
+    text-align: center;
+    color: #070707;
+
+}
+
+.about_text {
+    font-family: 'Gilroy Regular';
+    position: relative;
+    font-size: 18px;
+    top: 100px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    width: 470px;
+    height: 218px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    p {
+        padding-top: 30px;
+    }
+}
+
+.skills {
+    height: 610px;
+    width: 100%;
+
+}
+
+h4 {
+    font-family: 'GilroyBold';
+    position: relative;
+    font-size: 34px;
+    top: 170px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills-text {
+    font-family: 'Gilroy Regular';
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    color: #070707;
+    margin-top: 240px;
+}
+
+.skills-bloks {
+    display: inline-block;
+    height: 207px;
+    width: 1000px;
+    margin-left: 250.69px;
+    margin-top: 70px;
+}
+
+.skills-block1 {
+    height: 206px;
+    width: 166px;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+        p {
+            font-family: 'GilroyBold';
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #828282;
+            margin-top: 24px;
+        }
+    
+    
+    
+}
+
+.skills-block2 {
+    height: 206px;
+    width: 166px;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    p {
+        font-family: 'GilroyBold';
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #828282;
+        margin-top: 24px;
+    }
+    
+}
+
+.skills-block3 {
+    height: 206px;
+    width: 166px;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    p {
+        font-family: 'GilroyBold';
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #828282;
+        margin-top: 24px;
+    }
+    
+}
+
+.skills-block4 {
+    height: 206px;
+    width: 166px;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    
+    p {
+        font-family: 'GilroyBold';
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #828282;
+        margin-top: 24px;
+        padding-top: 17px;
+    }
+}
+
+.stars {
+    margin-top: 15px;
+
+}
+
+.portfolio {
+    background-color: rgba(246, 246, 246, 1);
+        h5 {
+            font-family: 'GilroyBold';
+            font-size: 34px;
+            line-height: 42px;
+            text-align: center;
+            padding-top: 100px;
+        }
+}
+
+.portfolio-fashion-store {
+    padding-top: 45px;
+    margin: auto;
+    display: block;
+}
+
+.portfolio-fashion-store-link {
+    font-family: 'Gilroy Regular';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: black;
+    text-align: center;
+    display: block;
+    padding-top: 45px;
+    
+
+}
+
+.portfolio-reebok-img {
+    padding-top: 95px;
+    margin: auto;
+    display: block;
+}
+.portfolio-reebok-link {
+    font-family: 'Gilroy Regular';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: black;
+    text-align: center;
+    display: block;
+    padding-top: 45px;
+}
+
+.portfolio-braun-img {
+    padding-top: 95px;
+    margin: auto;
+    display: block;
+
+}
+.portfolio-braun-link {
+    font-family: 'Gilroy Regular';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: black;
+    text-align: center;
+    display: block;
+    padding-top: 45px;
+    padding-bottom: 95px;
+}
+
+.Contacts {
+    background-color: white;
+    h6 {
+        font-family: 'GilroyBold';
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        padding-top: 100px;
+    }
+}
+
+.contact-text {
+    font-family: 'Gilroy Regular';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    display: block;
+    padding-top: 20px;
+
+}
+
+.button-send {
+    font-family: 'GilroyBold';
+    font-size: 18px;
+    line-height: 22px;  
+    color: #FFFFFF;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    background: #070707;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.contacts-icons {
+    display: block;
+    text-align: center;
+
+
+    img {
+        padding: 30px;
+        padding-top: 70px;
+    }
+}
+
+.footer-text {
+    
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    text-align: center;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
