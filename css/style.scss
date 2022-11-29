@@ -91,11 +91,18 @@ a:hover {
     align-items:flex-end;
 }
 
-.h1 {
+h1 {
     font-family: 'GilroyBold';
     font-size: 47px;
-    line-height: 59px;
+    line-height: 70px;
     letter-spacing: 0em;
+    padding: 10px;
+
+    p {
+        line-height: 30px;
+    }
+
+
 
     
     
@@ -103,7 +110,9 @@ a:hover {
 }
 .h2 {
     font-size: 18px;
-    padding-bottom: 15px;
+    padding: 10px;
+    padding-right: 80px;
+    
 
     
 
@@ -113,6 +122,7 @@ a:hover {
     transform:rotate(180deg);
     font-size: 16px;
     line-height: 20px;
+    padding: 10px;
     padding-bottom: 60px;
     
     
