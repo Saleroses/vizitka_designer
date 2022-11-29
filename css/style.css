@@ -162,7 +162,8 @@ a:hover {
 .foto1 {
   margin: auto;
   margin-top: 30px;
-  max-width: 950px;
+  height: auto;
+  width: 100%;
 }
 
 .about_me {
@@ -231,10 +232,16 @@ h4 {
   padding-bottom: 70px;
   padding-left: 10px;
   padding-right: 10px;
+  height: auto;
+  width: 100%;
 }
 
 .skills-block1 {
   text-align: center;
+}
+.skills-block1 img {
+  height: auto;
+  max-width: 100%;
 }
 .skills-block1 p {
   font-family: "GilroyBold";
@@ -256,6 +263,10 @@ h4 {
   color: #828282;
   margin-top: 24px;
 }
+.skills-block2 img {
+  height: auto;
+  max-width: 100%;
+}
 
 .skills-block3 {
   text-align: center;
@@ -267,6 +278,10 @@ h4 {
   text-align: center;
   color: #828282;
   margin-top: 24px;
+}
+.skills-block3 img {
+  height: auto;
+  max-width: 100%;
 }
 
 .skills-block4 {
@@ -280,6 +295,10 @@ h4 {
   color: #828282;
   margin-top: 24px;
   padding-top: 17px;
+}
+.skills-block4 img {
+  height: auto;
+  max-width: 100%;
 }
 
 .stars {
@@ -309,6 +328,8 @@ h4 {
 .portfolio-fashion-store {
   padding-top: 45px;
   margin: auto;
+  height: auto;
+  width: 100%;
 }
 
 .portfolio-fashion-store-link {
@@ -326,6 +347,8 @@ h4 {
 .portfolio-reebok-img {
   padding-top: 95px;
   margin: auto;
+  height: auto;
+  width: 100%;
 }
 
 .portfolio-reebok-link {
@@ -343,6 +366,8 @@ h4 {
 .portfolio-braun-img {
   padding-top: 95px;
   margin: auto;
+  height: auto;
+  width: 100%;
 }
 
 .portfolio-braun-link {
@@ -401,6 +426,8 @@ h4 {
 .contacts-icons img {
   margin-top: 40px;
   padding: 0px 25px;
+  height: auto;
+  width: 100%;
 }
 
 .footer-text {
