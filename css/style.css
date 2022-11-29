@@ -148,7 +148,7 @@ h1 p {
 .h2 {
   font-size: 18px;
   padding: 10px;
-  padding-right: 80px;
+  padding-right: 60px;
 }
 
 .ru_eng {
@@ -157,7 +157,6 @@ h1 p {
   transform: rotate(180deg);
   font-size: 16px;
   line-height: 20px;
-  padding: 10px;
   padding-bottom: 60px;
 }
 .ru_eng b {
@@ -247,6 +246,7 @@ h4 {
 .skills-block1 img {
   height: auto;
   max-width: 100%;
+  padding: 0px 2px;
 }
 .skills-block1 p {
   font-family: "GilroyBold";
@@ -271,6 +271,7 @@ h4 {
 .skills-block2 img {
   height: auto;
   max-width: 100%;
+  padding: 0px 2px;
 }
 
 .skills-block3 {
@@ -287,6 +288,7 @@ h4 {
 .skills-block3 img {
   height: auto;
   max-width: 100%;
+  padding: 0px 2px;
 }
 
 .skills-block4 {
@@ -298,16 +300,23 @@ h4 {
   line-height: 17px;
   text-align: center;
   color: #828282;
-  margin-top: 24px;
-  padding-top: 17px;
+  margin-top: 30px;
 }
 .skills-block4 img {
+  max-height: 84px;
   height: auto;
   max-width: 100%;
+  padding: 0px 2px;
+}
+.skills-block4 .stars {
+  margin-top: 32px;
 }
 
 .stars {
   margin-top: 15px;
+  height: auto;
+  width: 100%;
+  padding: 0px 5px;
 }
 
 .portfolio {
