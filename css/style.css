@@ -89,6 +89,7 @@ body {
   font-family: "Gilroy Regular";
   margin-top: 30px;
   padding: 10px;
+  margin: auto;
 }
 
 .header {
@@ -166,8 +167,7 @@ h1 p {
 .foto1 {
   margin: auto;
   margin-top: 30px;
-  height: auto;
-  width: 100%;
+  max-width: 100%;
 }
 
 .about_me {
@@ -244,7 +244,6 @@ h4 {
   text-align: center;
 }
 .skills-block1 img {
-  height: auto;
   max-width: 100%;
   padding: 0px 2px;
 }
@@ -361,8 +360,7 @@ h4 {
 .portfolio-reebok-img {
   padding-top: 95px;
   margin: auto;
-  height: auto;
-  width: 100%;
+  max-width: 100%;
 }
 
 .portfolio-reebok-link {
